@@ -1,0 +1,84 @@
+body {
+	background-color: #010114;
+	opacity:: 0.2;
+	background-image: url('pattern.png');
+	color: #e1c699;
+	font-family: revert-layer;
+
+
+}
+
+h1 {
+	letter-spacing: 5px;
+	font-size: 100px;
+	text-align: center;
+
+}
+
+#center{
+	width: 800px;
+	height: 500px;
+	float: center;
+	margin-left: 160px;
+}
+.apple {
+	font-family: "Copperplate";
+	font-size: 20px;
+	float: center;
+	color: #000;
+	background-color: #f4c2c2;
+	border: 1px solid darkred;
+	border-radius: 25px;
+	opacity: 0.7;
+	padding: 20px;
+	display: inline-block;
+	width: 75%;
+	margin-left: 150px;
+
+}
+
+.seagull{
+	font-family: "Copperplate";
+	font-size: 85px;
+	text-align: center;
+}
+
+.free{
+	letter-spacing: 5px;
+	margin-left: 100px;
+}
+
+
+
+p { 
+	font-family:monospace; 
+}
+
+.albums{
+	float: right;
+	margin-right: 50px;
+}
+
+.leftalbums{
+	float: left;
+	margin-left: 50px;
+}
+
+.size{
+	height: 100px;
+	width:100px;
+	transition: transform .2s;
+    width:100px;
+    height:100px; /* for transition like hover and zoom first make sure to transform and then scale it as u want*/
+  
+}
+
+#tv{
+	height: 100px;
+	width: 100px;
+}
+
+
+.size:hover{
+    transform:scale(2);
+}
